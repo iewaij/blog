@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>left-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-15.000000, -10.000000)">
+            <g id="left-arrow" transform="translate(15.000000, 10.000000)">
+                <g id="Group">
+                    <g id="Shape" fill="#4FBA6F">
+                        <path d="M27,1 L27,1 C41.359,1 53,12.641 53,27 L53,27 C53,41.359 41.359,53 27,53 L27,53 C12.641,53 1,41.359 1,27 L1,27 C1,12.641 12.641,1 27,1 Z"></path>
+                        <path d="M27,54 C12.112,54 0,41.888 0,27 C0,12.112 12.112,0 27,0 C41.888,0 54,12.112 54,27 C54,41.888 41.888,54 27,54 Z M27,2 C13.215,2 2,13.215 2,27 C2,40.785 13.215,52 27,52 C40.785,52 52,40.785 52,27 C52,13.215 40.785,2 27,2 Z"></path>
+                    </g>
+                    <polygon id="Triangle" fill="#FFFFFF" points="29.1398738 26.9462891 14 35.8925781 14 18"></polygon>
+                    <g id="Rectangle" transform="translate(31.000000, 18.000000)" fill="#FFFFFF">
+                        <rect id="Rectangle-2" x="0" y="0" width="4" height="18"></rect>
+                    </g>
+                    <g id="Rectangle" transform="translate(37.000000, 18.000000)" fill="#FFFFFF">
+                        <rect id="Rectangle-2" x="0" y="0" width="4" height="18"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

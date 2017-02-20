@@ -72,6 +72,7 @@ img {
 pre,
 code {
     overflow: auto;
+    font-family: 'Monaco', 'Menlo', monospace;
     font-size: 0.7*$base-font-size;
     border-radius: 3px;
     border: 1px solid $brand-color;
@@ -88,9 +89,9 @@ code {
 blockquote {
     border-left: 2px solid $brand-color;
     padding-left: 1em;
-    font-family: Georgia,Times,Times New Roman,serif;
+    font-family: 'STFangsong', Georgia,Times,Times New Roman,serif;
     font-size: 0.9*$base-font-size;
-    font-style: italic;
+    font-weight: 400;
 }
 
 
@@ -98,14 +99,14 @@ blockquote {
 .headline {
     font-family: "Menlo", "Lantinghei SC Heavy", "Pingfang SC", monospace;
     font-weight: 900;
-    font-size: 3em;
+    font-size: 2.5em;
         @include media-query($on-palm) {
             font-size: 2em;
     }
 }
 
 .post-headline {
-    font-size: 4em;
+    font-size: 2.6em;
         @include media-query($on-palm) {
             font-size: 1.5em;
     }
@@ -115,8 +116,8 @@ blockquote {
 .home {
     background-image: url(../images/left-arrow.svg);
     background-repeat: no-repeat;
-    height: 40px;
-    width: 40px;
+    height: 80px;
+    width: 60px;
     opacity: 0.9;
     position: fixed;
     top: 50px;
@@ -125,10 +126,10 @@ blockquote {
     opacity: 1;
     }
     @include media-query($on-laptop) {
-        top: 90%;
-        left: 90%;
-        height: 30px;
-        width: 30px;
+        top: 80%;
+        left: 80%;
+        height: 60px;
+        width: 60px;
         opacity: 0.6;
     }
 

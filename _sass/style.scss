@@ -149,7 +149,7 @@ blockquote {
 
 // Adding 'Contents' headline to the TOC
 #markdown-toc::before {
-    content: "Contents";
+    content: "目录";
     font-weight: bold;
 }
 

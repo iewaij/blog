@@ -2,22 +2,6 @@
 layout: post
 title: Financial Accounting 概览
 date: '2016-12-20 12:13'
-comments:
-  - author:
-      type: github
-      displayName: iewaij
-      url: 'https://github.com/iewaij'
-      picture: 'https://avatars.githubusercontent.com/u/20390106?v=3&s=73'
-    content: '&#x6D4B;&#x8BD5;&#x4E00;&#x4E0B;&#x8BC4;&#x8BBA;&#x7CFB;&#x7EDF;&#x3002;'
-    date: 2017-02-20T10:52:36.466Z
-  - author:
-      type: full
-      displayName: iewaij
-      url: 'https://github.com/iewaij'
-      picture: 'https://avatars.githubusercontent.com/u/20390106?v=3&s=73'
-    content: '&#x6D4B;&#x8BD5;&#x8BC4;&#x8BBA;&#x7CFB;&#x7EDF;&#x3002;'
-    date: 2017-02-20T11:36:14.504Z
-
 ---
 * Do not remove this line (it will not be displayed) 
 {:toc}

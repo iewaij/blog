@@ -3,7 +3,9 @@
 title: 游戏暂停
 baseurl: /iewaij.github.io # name of the repository
 email: li.jw@me.com
-
+name: 游戏暂停
+description: 李家伟记录自己的博客。
+url: http://lijiawei.cc
 
 
 highlighter: rouge
@@ -15,7 +17,7 @@ markdown: kramdown
 analytics: UA-92264874-1
 
 # Comments
-disqus-shortname: webjeda-demo
+# disqus-shortname: webjeda-demo
 
 
 #optimization

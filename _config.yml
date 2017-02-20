@@ -12,6 +12,7 @@ highlighter: rouge
 markdown: kramdown
 ### exclude the instructions / write-up in the README.md
 
+permalink: /:year/:month/:day/:title/
 
 # Tracker
 analytics: UA-92264874-1

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "QC35 有多他妈安静？"
 date:   2016-10-19 20:10
 ---

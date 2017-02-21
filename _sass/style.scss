@@ -97,9 +97,9 @@ blockquote {
 
 
 .headline {
-    font-family: "Menlo", "Lantinghei SC Heavy", "Pingfang SC", monospace;
+    font-family: "MFDingDing_Noncommercial-Regular", "Pingfang SC", monospace;
     font-weight: 900;
-    font-size: 2.5em;
+    font-size: 4em;
         @include media-query($on-palm) {
             font-size: 2em;
     }

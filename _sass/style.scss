@@ -101,7 +101,7 @@ blockquote {
     font-weight: 900;
     font-size: 4em;
         @include media-query($on-palm) {
-            font-size: 2em;
+            font-size: 3em;
     }
 }
 

@@ -40,7 +40,16 @@ $on-laptop:        800px;
     }
 }
 
-
+@font-face {
+    font-family: "MFDingDing_Noncommercial-Regular";
+    src: url("/fonts/MFDingDing_Noncommercial-Regular.eot"); /* IE9 */
+    src: url("/fonts/MFDingDing_Noncommercial-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts/MFDingDing_Noncommercial-Regular.woff") format("woff"), /* chrome, firefox */
+    url("/fonts/MFDingDing_Noncommercial-Regular.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("/fonts/MFDingDing_Noncommercial-Regular.svg#MFDingDing_Noncommercial-Regular") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

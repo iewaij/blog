@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "QM 自学指引"
+title:  "微积分和统计自学指引"
 date:   2017-02-23 22:06
 ---
 

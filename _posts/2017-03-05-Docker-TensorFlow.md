@@ -47,17 +47,17 @@ docker run -it -p 8888:8888 -v ~/pathe/to/folder/you/wannna/share:/portal tensor
 ### Docker 关键命令
 使用 `docker images` 查看装了哪些镜像：
 
-![](http://lijiawei.cc/屏幕快照 2017-03-05 下午3.05.15.png)
+![](http://lijiawei.cc/images/屏幕快照 2017-03-05 下午3.05.15.png)
 
 使用 `docker rmi <image name or tag or ID whatever>` 可以删除镜像。
 
 使用 `docker ps` 查看正在运行的容器（图中没有正在运行的容器）：
 
-![](http://lijiawei.cc/屏幕快照 2017-03-05 下午3.07.15.png)
+![](http://lijiawei.cc/images/屏幕快照 2017-03-05 下午3.07.15.png)
 
 使用 `docker ps -a` 查看所有的容器：
 
-![](http://lijiawei.cc/屏幕快照 2017-03-05 下午3.08.37.png)
+![](http://lijiawei.cc/images/屏幕快照 2017-03-05 下午3.08.37.png)
 
 使用 `docker rm <container name or tag or ID whatever>` 可以删除容器。
 

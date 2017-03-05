@@ -25,7 +25,7 @@ Docker 可以帮助我们把这个镜像安装，变成我们可以使用的容�
 ### Docker 加速器设置
 因为国内的垃圾网络，最好装加速器来减少下载镜像的等待时间，我用了号称永久免费的 [DaoCloud](https://www.daocloud.io/)，在得到镜像地址后，在 Docker 中如图所示设置。
 
-![](images/屏幕快照 2017-03-05 下午2.57.26.png)
+![](http://lijiawei.cc/images/屏幕快照 2017-03-05 下午2.57.26.png)
 
 ### TensorFlow 镜像安装
 启动 Docker，然后终端运行以下命令，即可从 Docker Hub 上下载 TensorFlow 镜像。
@@ -47,17 +47,17 @@ docker run -it -p 8888:8888 -v ~/pathe/to/folder/you/wannna/share:/portal tensor
 ### Docker 关键命令
 使用 `docker images` 查看装了哪些镜像：
 
-![](images/屏幕快照 2017-03-05 下午3.05.15.png)
+![](http://lijiawei.cc/屏幕快照 2017-03-05 下午3.05.15.png)
 
 使用 `docker rmi <image name or tag or ID whatever>` 可以删除镜像。
 
 使用 `docker ps` 查看正在运行的容器（图中没有正在运行的容器）：
 
-![](images/屏幕快照 2017-03-05 下午3.07.15.png)
+![](http://lijiawei.cc/屏幕快照 2017-03-05 下午3.07.15.png)
 
 使用 `docker ps -a` 查看所有的容器：
 
-![](images/屏幕快照 2017-03-05 下午3.08.37.png)
+![](http://lijiawei.cc/屏幕快照 2017-03-05 下午3.08.37.png)
 
 使用 `docker rm <container name or tag or ID whatever>` 可以删除容器。
 
@@ -99,41 +99,4 @@ alias startdocker="docker start -i a4032edb39cb"
 
 结果如图：
 
-[image:BBEDC019-FC9E-47FF-8BF8-32F771697B38-1965-0000072987BC43E4/vPAAAAAElFTkSuQmCC.png]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#博客
+![](https://ww4.sinaimg.cn/large/006tKfTcgy1fdc04dobmyj30se0oyaec.jpg)

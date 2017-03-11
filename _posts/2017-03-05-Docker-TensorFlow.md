@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Docker + TensorFlow 入门、主题指南"
+title:  "Docker + TensorFlow 入门"
 date:   2017-03-05 15:32
 ---
 
@@ -65,7 +65,7 @@ docker run -it -p 8888:8888 -v ~/pathe/to/folder/you/wannna/share:/portal tensor
 
 若要停止容器（比如端口被占），运行 `docker stop <container name or tag or ID whatever>`。启动容器运行 `docker start <container name or tag or ID whatever>`。
 
-好的，现在到关键部分了！当我启动了一个 TensorFlow 容器后，我该怎么开始运行 Jupyter Notebook 呢？运行`docker start -i <container name or tag or ID whatever>` 就可以了！
+好的，现在到关键部分了！当我创建了一个 TensorFlow 容器后，我该怎么开始运行 Jupyter Notebook 呢？运行`docker start -i <container name or tag or ID whatever>` 就可以了！
 
 在 notebook 里测试一下 `/portal` 是否正常，可以运行：
 
@@ -81,6 +81,13 @@ alias tfdocker="docker run -it -p 8888:8888 -v ~/Coding/DeepLearning101:/portal 
 
 # 启动 ID 为 a4032edb39cb 的容器并开启 Jupyter Notebook
 alias startdocker="docker start -i a4032edb39cb"
+```
+
+# 让容器与本机的文件夹同步
+参考[junjielizero 的笔记](https://github.com/junjielizero/DeepLearning101/blob/master/ch0/note/README.md)，运行下列命令，可以创建于本机文件夹同步的笔记。
+
+```
+docker run -it -p 8888:8888 -v ~/Coding/DeepLearning101:/Coding/DeepLearning101 -w /Coding/DeepLearning101 tensorflow/tensorflow
 ```
 
 ## Jupyter Notebook 主题更改

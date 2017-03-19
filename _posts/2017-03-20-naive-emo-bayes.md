@@ -7,7 +7,7 @@ date:   2017-03-20 01:18
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
-生成博文的时候公式排版有问题，我也不知道怎么修复，如果你遇到式子乱码的问题，请移步我的[GitHub 笔记](https://github.com/iewaij/machine-learning-lab/blob/master/Naive_Bayes/note/Naive_Emo_Bayes_Notes.ipynb) 和[代码](https://github.com/iewaij/machine-learning-lab/blob/master/Naive_Bayes/code/Naive_Emo_Bayes.ipynb)，多谢包涵！
+生成博文的时候公式排版有问题，我也不知道怎么修复，如果你遇到式子乱码的问题，请移步我的 [GitHub 笔记](https://github.com/iewaij/machine-learning-lab/blob/master/Naive_Bayes/note/Naive_Emo_Bayes_Notes.ipynb) 和[代码](https://github.com/iewaij/machine-learning-lab/blob/master/Naive_Bayes/code/Naive_Emo_Bayes.ipynb)，多谢包涵！
 
 ## 贝叶斯推断
 P(x, y) = P(x|y) × P(y) = P(y|x) × P(x)

@@ -56,11 +56,11 @@ $$\theta_j := \theta_j - \alpha \frac{\partial}{\partial \theta_j} J(\theta_0, \
 
 现在求 $$\frac{\partial}{\partial \theta_j} J(\theta_0, \theta_1)$$ 了, $$j=0$$ 时, 沿 $$\theta_1$$切一刀, 把 $$\theta_1$$ 看作常数: 
 
-$$\theta_0 := \theta_0 - \alpha \frac{1}{m} \sum\limits_{i=1}^{m}(\theta_{0}+\theta_{1}x_{i}-y_{i}) $$
+$$\theta_0 := \theta_0 - \alpha \sum\limits_{i=1}^{m}(\theta_{0}+\theta_{1}x_{i}-y_{i}) $$
 
 $$j=1$$ 同理, 因为 $$\theta_1$$ 有系数 $$x_{i}$$:
 
-$$\theta_1 := \theta_1- \alpha \frac{1}{m} \sum\limits_{i=1}^{m}((\theta_{0}+\theta_{1}x_{i}-y_{i} )x_{i}) $$
+$$\theta_1 := \theta_1- \alpha \sum\limits_{i=1}^{m}((\theta_{0}+\theta_{1}x_{i}-y_{i} )x_{i}) $$
 
 当 $$\theta_0, \theta_1$$ 已经降无可降时, 我们称此时的 $$\theta_0, \theta_1$$ 的值收敛, 这时的 $$\theta_0, \theta_1$$ 就是我们想要的结果.
 
@@ -70,34 +70,7 @@ $$\theta_1 := \theta_1- \alpha \frac{1}{m} \sum\limits_{i=1}^{m}((\theta_{0}+\th
 
 生成11个 (x,y), 且 y 加了0~1之间的随机数干扰. 
 
-```python
-import numpy as np
-from __future__ import division
-import matplotlib.pyplot as mpl
-import matplotlib.pyplot as plt
-%pylab inline
-
-# 通过rcParams设置全局横纵轴字体大小
-mpl.rcParams['xtick.labelsize'] = 12
-mpl.rcParams['ytick.labelsize'] = 12
-
-# training size
-m = 11
-
-x = np.linspace(0, 10, m)
-
-y = 55 - 8 * x
-
-# add noise
-y_data = y + np.random.normal(scale=1, size=m)
-
-# name the figure as 'gd'
-plt.figure('gd')
-
-plt.plot(x, y, 'k', lw=1)
-plt.scatter(x, y_data)
-plt.show()
-```
+<script src="https://gist.github.com/iewaij/b4f63c74ba611bfabce77949573a5601.js"></script>
 
 生成的结果如图, 点是训练集, 直线表示不加干扰时 x 和 y 的关系.
 
@@ -106,34 +79,12 @@ plt.show()
 
 ### 训练模型
 
-$$\theta_0 := \theta_0 - \alpha \frac{1}{m} \sum\limits_{i=0}^{m}(\theta_{0}+\theta_{1}x_{i}-y_{i} )$$
+$$\theta_0 := \theta_0 - \alpha \sum\limits_{i=0}^{m}(\theta_{0}+\theta_{1}x_{i}-y_{i} )$$
 
-$$\theta_1 := \theta_1- \alpha \frac{1}{m} \sum\limits_{i=0}^{m}((\theta_{0}+\theta_{1}x_{i}-y_{i} )x_{i})= \theta_1- \alpha \frac{1}{m} \sum\limits_{i=0}^{m}(\theta_{0}x_{i}+\theta_{1}x_{i}^2-y_{i}x_{i} )$$
+$$\theta_1 := \theta_1- \alpha \sum\limits_{i=0}^{m}((\theta_{0}+\theta_{1}x_{i}-y_{i} )x_{i})= \theta_1- \alpha \sum\limits_{i=0}^{m}(\theta_{0}x_{i}+\theta_{1}x_{i}^2-y_{i}x_{i} )$$
 
 
-```python
-a = 0.0552
-theta_0 = 0
-theta_1 = 0
-
-for n in range(0, 601):
-    temp_0 = theta_0 - (a * theta_0 + a/m * theta_1 * np.sum(x) - a/m * np.sum(y_data))
-    temp_1 = theta_1 - (a/m * np.sum(theta_0 * x) + a/m * np.sum(theta_1*x*x) - a/m * np.sum(x*y_data))
-    if abs(temp_0 - theta_0) < 0.001:
-        print n, temp_0, temp_1
-        y_train = temp_0 + temp_1 * x
-        plt.plot(x, y_train, 'k', lw=1)
-        plt.scatter(x, y_data)
-        plt.show()
-        break
-    theta_0, theta_1 = temp_0, temp_1
-    if n % 50 == 0:
-        print n, temp_0, temp_1
-        y_train = temp_0 + temp_1 * x
-        plt.plot(x, y_train, 'k', lw=1)
-        plt.scatter(x, y_data)
-        plt.show()
-```
+<script src="https://gist.github.com/iewaij/e9fa6591b73b04cb92220e76a2fb43e8.js"></script>
 
 每运算50次, 生成计算机预测的图像, 我们可以看到计算机的预测是如何逼近原图像的.
 

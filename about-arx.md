@@ -1,7 +1,7 @@
 ---
 title: '李家伟其人'
 layout:  post
-permalink: /about/
+permalink: /about-arx/
 published: true
 ---
 

@@ -4,10 +4,10 @@ deb http://mirrors.aliyun.com/raspbian/raspbian/ jessie main non-free contrib
 deb-src http://mirrors.aliyun.com/raspbian/raspbian/ jessie main non-free contrib
 </code></pre></div><p><img src="http://ww3.sinaimg.cn/large/006tNc79gw1fbg76t6uh7j30oa0g142p.jpg" alt="" /></p><p>更换中科大镜像的方法一样, 但文件位置及名字不同.</p><div class="highlighter-rouge"><pre class="highlight"><code>sudo nano /etc/apt/sources.list.d/raspi.list
 # 注释掉原来的, 输入中科大镜像
-deb http://mirrors.ustc.edu.cn/archive.raspberrypi.org/debian/ jessie main ui
+deb http://mirrors.ustc.edu.cn/archive.raspberrypi.org/ jessie main ui
 </code></pre></div><p><img src="http://ww4.sinaimg.cn/large/006tNc79gw1fbg76rmtg6j30oa0g1jtv.jpg" alt="" /></p><p>更换好源后, 输入以下代码就可以不用忍受龟速更新系统了.</p><div class="highlighter-rouge"><pre class="highlight"><code>sudo apt-get update
 sudo apt-get upgrade
-</code></pre></div><h2 id="安装-nodejs-及相关依赖">安装 Node.js 及相关依赖</h2><p>Homebridge 是一个用 node.js 开发的 HomeKit 服务器, 因此需要参考 <a href="https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi">Running HomeBridge on a Raspberry Pi</a> 在树莓派上先安装 node.js, 由于国内网络问题, 仍然需要更换镜像.</p><div class="highlighter-rouge"><pre class="highlight"><code>curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+</code></pre></div><h2 id="安装-nodejs-及相关依赖">安装 Node.js 及相关依赖</h2><p>Homebridge 是一个用 node.js 开发的 HomeKit 服务器, 因此需要参考 <a href="https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi">Running HomeBridge on a Raspberry Pi</a> 在树莓派上先安装 node.js, 由于国内网络问题, 仍然需要更换镜像.</p><div class="highlighter-rouge"><pre class="highlight"><code>curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 # 更换为国内源
 sudo nano /etc/apt/sources.list.d/nodesource.list
 # 输入清华大学镜像

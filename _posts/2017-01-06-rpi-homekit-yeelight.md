@@ -53,7 +53,7 @@ deb-src http://mirrors.aliyun.com/raspbian/raspbian/ jessie main non-free contri
 ```
 sudo nano /etc/apt/sources.list.d/raspi.list
 # 注释掉原来的, 输入中科大镜像
-deb http://mirrors.ustc.edu.cn/archive.raspberrypi.org/debian/ jessie main ui
+deb http://mirrors.ustc.edu.cn/archive.raspberrypi.org/ jessie main ui
 ```
 
 ![](http://ww4.sinaimg.cn/large/006tNc79gw1fbg76rmtg6j30oa0g1jtv.jpg)
@@ -68,7 +68,7 @@ sudo apt-get upgrade
 Homebridge 是一个用 node.js 开发的 HomeKit 服务器, 因此需要参考 [Running HomeBridge on a Raspberry Pi](https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi) 在树莓派上先安装 node.js, 由于国内网络问题, 仍然需要更换镜像.
 
 ```
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 # 更换为国内源
 sudo nano /etc/apt/sources.list.d/nodesource.list
 # 输入清华大学镜像

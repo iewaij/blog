@@ -5,7 +5,7 @@ date:   2017-08-10 15:20
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
-本笔记是[数据科学导论系列](https://github.com/iewaij/introDataScience)的第一篇，另有阅读体验更加的 [Jupyter Notebook 版本](https://nbviewer.jupyter.org/github/iewaij/introDataScience/blob/master/Data%20Collecting%2C%20Unboxing%20and%20Wrangling.ipynb)，Jupyter Notebook 和 Markdown 文件开源于 [GitHub]((https://github.com/iewaij/introDataScience)。
+本笔记是[数据科学导论系列](https://github.com/iewaij/introDataScience)的第一篇，另有阅读体验更加的 [Jupyter Notebook 版本](https://nbviewer.jupyter.org/github/iewaij/introDataScience/blob/master/Data%20Collecting%2C%20Unboxing%20and%20Wrangling.ipynb)，Jupyter Notebook 和 Markdown 文件开源于 [GitHub](https://github.com/iewaij/introDataScience)。
 
 ## 数据收集
 尽管互联网上已经有很多数据集，但有时候我们需要的数据不是现成的，需要收集数据。收集这些数据通常有两种方法：爬虫和 API。

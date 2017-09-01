@@ -65,20 +65,7 @@ $$P(K=k) = \frac{\lambda^{k}e^{-\lambda}}{k!}$$
 
 设 t 为彩龄，甲是彩龄 a 年的老彩民，每天都买彩票，甲在 b 年后中彩的概率为 P(t> a + b \| t > a)，乙是刚入门的新手，也每天买彩票，乙在 b 年后中彩的概率为 P(t> b)，如果甲中彩的概率等于乙中彩的概率，P(t> a + b \| t > a) = P(t> b)，则无记忆性成立。
 
-$$Proof:$$
-
 ![Screen Shot 2017-09-01 at 7.05.07 PM](https://i.loli.net/2017/09/01/59a942ace1c5e.png)
-
-$$
-\begin{split}
-P(t > a + b\ |\ t > a) &= \frac {P(t > a + b,\ t > a)}{P(t > a)}，由条件概率公式可得\\
-&=\frac {P(t > a + b \bigcap t > a)}{P(t > a)}\\
-&=\frac {P(t > a + b)}{P(t > a)}，显然交集是 a+b 年后中彩的概率\\
-&=\frac {e^{-\lambda(a+b)}}{e^{-\lambda a}}\\
-&=e^{-\lambda b}\\
-&=P(t > b)\\
-\end{split}
-$$
 
 以上证明了指数分布的<u>无记忆性</u>成立。指数分布的<u>无记忆性</u>来源于泊松过程，本篇笔记暂不讨论，可参考知乎的[简单讨论](https://www.zhihu.com/question/36965252)。
 

@@ -66,6 +66,9 @@ $$P(K=k) = \frac{\lambda^{k}e^{-\lambda}}{k!}$$
 设 t 为彩龄，甲是彩龄 a 年的老彩民，每天都买彩票，甲在 b 年后中彩的概率为 P(t> a + b \| t > a)，乙是刚入门的新手，也每天买彩票，乙在 b 年后中彩的概率为 P(t> b)，如果甲中彩的概率等于乙中彩的概率，P(t> a + b \| t > a) = P(t> b)，则无记忆性成立。
 
 $$Proof:$$
+
+![Screen Shot 2017-09-01 at 7.05.07 PM](https://i.loli.net/2017/09/01/59a942ace1c5e.png)
+
 $$
 \begin{split}
 P(t > a + b\ |\ t > a) &= \frac {P(t > a + b,\ t > a)}{P(t > a)}，由条件概率公式可得\\
@@ -98,5 +101,5 @@ $$
 听起来很不科学，但已经有无数的论文证明了 Bootstrap 是对的。一个解释是通过大数定理，当你对样本进行大量的随机取样，「假样本」的值会向真实值收敛，「假样本」是可以当做真样本使用的。
 
 ## 深入阅读
-[Statistical Models](https://book.douban.com/subject/4218659/)
+[Statistical Models](https://book.douban.com/subject/4218659/)  
 [Statistical Models](https://book.douban.com/subject/4057698/)

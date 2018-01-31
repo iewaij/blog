@@ -11797,7 +11797,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="3">3<a class="anchor-link" href="#3">&#182;</a></h3><p>Multiply a number $n$ by its consecutive number $n+1$, the result $n(n+1)$ will be an even number because either $n$ or $n+1$ is even therefore the result has factor $2$.</p>
+<h3 id="3">3<a class="anchor-link" href="#3">&#182;</a></h3><p>Multiply a number $n$ by its consecutive number $n+1$, the result $n(n+1)$ will be an even number because either $n$ or $n+1$ is even.</p>
 <p>Adding $1$ to an even number will get an odd number.</p>
 <p>Therefore, $n(n+1)+1= n^2+n+1$ is odd.</p>
 
@@ -11808,8 +11808,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="4">4<a class="anchor-link" href="#4">&#182;</a></h3><p>All natural numbers are either multiple of $4$ or not.</p>
-<p>It is known that $n$ is integer, we can denote any multiple of $4$ as $4n$, any other numbers which are not multiple of $4$ as $4n+1$, $4n+2$, and $4n+3$.</p>
+<h3 id="4">4<a class="anchor-link" href="#4">&#182;</a></h3><p>Accoring to Division Theorem, all natural numbers could be expressed as $4n$, $4n+1$, $4n+2$, or $4n+3$ given nutral number $n$.</p>
 <p>$4n$ and $4n+2$ are even, $4n+1$ and $4n+3$ both are the sum of an odd number and an even number therefore are odd.</p>
 <p>Therefore every odd natural number is of one of the forms $4n+1$ or $4n+3$.</p>
 
@@ -11868,7 +11867,8 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="9">9<a class="anchor-link" href="#9">&#182;</a></h3><p>$A_n = \big\{ x \in \mathcal{N}\, |\, x &gt; n \big\}$</p>
+<h3 id="9">9<a class="anchor-link" href="#9">&#182;</a></h3><p>$A_n = (0, \frac{1}{n}]$</p>
+<p>It is clear that $A_{n+1}$ is a subset of $A_n$ beacause $\frac{1}{n}$ decreases when $n$ increases. Assume the intersection is not $\emptyset$ but $\frac{1}{x}$, there will be a $A_m = (0, \frac{1}{x+1}]$ which do not have $\frac{1}{x}$ and contracdict the assumption. Thus the intersection is $\emptyset$, $A_n = (0, \frac{1}{n}]$ has stated property.</p>
 
 </div>
 </div>
@@ -11877,7 +11877,8 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="10">10<a class="anchor-link" href="#10">&#182;</a></h3><p>$B_n = \big\{ x \in \mathcal{N}\, |\, 2 \leq x &lt; n  \big\}$. Set the universal set as $\mathcal{N}$, $A_n = B_n'$.</p>
+<h3 id="10">10<a class="anchor-link" href="#10">&#182;</a></h3><p>$A_n = [0, \frac{1}{n}]$</p>
+<p>Following the same logic of last problem, but each collection now has $0$, thus the intersection consists of a single real number $0$.</p>
 
 </div>
 </div>

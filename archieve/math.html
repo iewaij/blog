@@ -11846,8 +11846,8 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="7">7<a class="anchor-link" href="#7">&#182;</a></h3><p>By induction, assume the statement is true.</p>
 <p>When $n = 1$, $2 = 2^{1+1} - 2$, the statement holds.</p>
-<p>For all $n \geq 2$,</p>
-<p>$$2+2^2+2^3+...+2^n+2^{n+1}-(2+2^2+2^3+...+2^n) = 2^{n+2} - 2 - (2^{n+1} - 2) = 2^{n+1}$$</p>
+<p>For all $n \geq 2$, $2+2^2+2^3+...+2^n = 2^{n+1} - 2$.</p>
+<p>Add $2^{n+1}$ to both sides of the eqution, we get $2+2^2+2^3+...+2^n + 2^{n+1} = 2^{n+1} - 2 + 2^{n+1} = 2^{n+2} - 2$.</p>
 <p>The statement still holds, therefore it is true.</p>
 
 </div>
@@ -11877,7 +11877,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="10">10<a class="anchor-link" href="#10">&#182;</a></h3><p>$A_n = \big\{ x \in \mathcal{N}\, |\, 1 &lt; x &lt;n \big\}$</p>
+<h3 id="10">10<a class="anchor-link" href="#10">&#182;</a></h3><p>$B_n = \big\{ x \in \mathcal{N}\, |\, 2 \leq x &lt; n  \big\}$. Set the universal set as $\mathcal{N}$, $A_n = B_n'$.</p>
 
 </div>
 </div>

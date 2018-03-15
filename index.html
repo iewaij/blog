@@ -12,3 +12,15 @@ layout: default
 {% for essay in site.essays reversed%}
 <h3><a href="{{essay.url | prepend: site.baseurl}}">{{essay.title}}</a></h3>
 {% endfor %}
+
+<footer>
+    <div class="links">
+        <a href="{{site.baseurl}}/about/">About</a>
+        <a href="{{site.baseurl}}/contact/">Contact</a>
+        <a href="https://github.com/iewaij">Github</a>
+        <a href="https://twitter.com/tiewuz">Twitter</a>
+        <a href="{{site.baseurl}}/feed.xml">RSS</a>
+        <!-- <a onclick="theme()">Change Theme</a> -->
+    </div>
+    <!-- <div class="theme" onclick="theme()" style="    background-image: url({{site.baseurl}}/images/theme-backup.svg)"></div> -->
+</footer>

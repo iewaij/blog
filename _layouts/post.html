@@ -2,11 +2,8 @@
 layout: default
 ---
 <h1 class="post-headline">{{page.title}}</h1>
-<div class="meta"><span>
-	{{ page.date | date: "%Y" }} 年
-	{{ page.date | date: "%-m" }} 月
-	{{ page.date | date: "%-d" }} 日
-</span></div>
+<div>{{ page.date | date: "%Y-%m-%d" }}</div>
+
 
 {{content}}
 

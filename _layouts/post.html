@@ -8,6 +8,6 @@ layout: default
 {{content}}
 
 <!-- Comments only for posts -->
-{% if page.path contains '_posts' %}
+{% if page.path contains '_posts' or '_essays'%}
 	{% include disqus.html %}
 {% endif %}

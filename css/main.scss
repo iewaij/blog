@@ -4,8 +4,8 @@
 
 @charset "utf-8";
 
-$base-font-family: 'Work Sans', 'Pingfang SC', 'Source Sans Pro', Helvetica Neue, "Microsoft YaHei", "微软雅黑", sans-serif;
-$base-font-size:   18px;
+$base-font-family: 'Pingfang SC', 'Source Sans Pro', 'Work Sans',  "Microsoft YaHei", "微软雅黑", Helvetica Neue, sans-serif;
+$base-font-size:   17px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.7;
@@ -16,14 +16,15 @@ $text-color:       #333;
 $background-color: #fdfdfd;
 $brand-color:      #60c17d;
 
-$grey-color:       #828282;
+// $grey-color:       #828282;
+$grey-color:       #FAFAFA;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark:  darken($grey-color, 15%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    650px;
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        900px;
 
 
 

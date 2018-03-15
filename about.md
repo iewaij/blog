@@ -1,6 +1,6 @@
 ---
 title: '游戏暂停'
-layout:  post
+layout: default
 permalink: /about/
 published: true
 ---

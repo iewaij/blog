@@ -1,25 +1,29 @@
 ### your site title here
 
 title: 游戏暂停
-baseurl: /iewaij.github.io # name of the repository
+baseurl:  # name of the repository
 email: li.jw@me.com
 name: 游戏暂停
-description: 李家伟记录自己的博客。
+description: 李家伟的博客。
 url: http://lijiawei.cc
 
 
 highlighter: rouge
-markdown: kramdown
+markdown: maruku
 ### exclude the instructions / write-up in the README.md
 
-permalink: /:year/:month/:day/:title/
+permalink: posts/:title/
 
 # Tracker
 analytics: UA-92264874-1
 
 # Comments
-# disqus-shortname: webjeda-demo
+disqus-shortname: you-xi-zan-ting
 
+collections:
+  essays:
+    output: true
+    permalink: essays/:title/
 
 #optimization
 #compress.html
@@ -32,7 +36,6 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
-  
 
 sass:
  style: compressed
@@ -41,4 +44,4 @@ exclude:
 - README.md
 
 
-gems: [jekyll-seo-tag, jekyll-paginate]
+plugins: [jekyll-seo-tag]

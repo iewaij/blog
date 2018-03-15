@@ -27,22 +27,12 @@ body {
     }
 
     h1,h2,h3,h4,h5,h6 {
-         font-family: "Microsoft YaHei", "Menlo", "Pingfang SC", "微软雅黑";
+         // font-family: "Microsoft YaHei", "Menlo", "Pingfang SC", "微软雅黑";
+         font-family: "Menlo", $base-font-family;
          font-weight: bold;
          line-height: 1.8;
          margin: 0;
-         text-transform: capitalize;
     }
-
-
-a {
-    color: $brand-color;
-    text-decoration: none;
-    &:hover{
-     color: $text-color;   
-    }
-}
-
 
 
 p a {
@@ -50,15 +40,24 @@ p a {
     text-decoration: none;
     background: -webkit-linear-gradient(transparent 90%, lighten($brand-color, 10%) 10%);
     box-shadow: inset 0 0 0 0 lighten($brand-color, 10%);
-    -webkit-transition: box-shadow ease 1s;
-	-moz-transition: box-shadow ease 1s;
-	transition: box-shadow ease 1s;
+    // -webkit-transition: box-shadow ease 1s;
+	// -moz-transition: box-shadow ease 1s;
+	// transition: box-shadow ease 1s;
     &:hover {
         color: lighten($background-color, 50%);
         box-shadow: inset 0 -100px 0 0 lighten($brand-color, 10%);
 
     }
 }
+
+a {
+    color: $brand-color;
+    text-decoration: none;
+    &:hover{
+     color: $text-color;
+    }
+}
+
 
 
 figure {
@@ -72,7 +71,7 @@ img {
 pre,
 code {
     overflow: auto;
-    font-family: 'Monaco', 'Menlo', monospace;
+    font-family: 'Menlo', 'Monaco', monospace;
     font-size: 0.7*$base-font-size;
     border-radius: 3px;
     border: 1px solid $brand-color;
@@ -80,12 +79,15 @@ code {
         border: none;
     }
 }
+
 pre {
         padding: 1em;
 }
+
 code {
     padding: 0.1em;
 }
+
 blockquote {
     border-left: 2px solid $brand-color;
     padding-left: 1em;
@@ -106,7 +108,7 @@ blockquote {
 }
 
 .post-headline {
-    font-size: 2.6em;
+    font-size: 2.2em;
         @include media-query($on-palm) {
             font-size: 1.5em;
     }
@@ -116,7 +118,7 @@ blockquote {
 .home {
     background-image: url(../images/left-arrow.svg);
     background-repeat: no-repeat;
-    height: 80px;
+    height: 60px;
     width: 60px;
     opacity: 0.9;
     position: fixed;
@@ -133,7 +135,7 @@ blockquote {
         opacity: 0.6;
     }
 
-    
+
 }
 
 .video {
@@ -144,7 +146,7 @@ blockquote {
     }
     @include media-query($on-palm) {
         height: 180px;
-    }   
+    }
 }
 
 // Adding 'Contents' headline to the TOC
@@ -160,8 +162,14 @@ blockquote {
 }
 
 #markdown-toc {
+    font-family: "Menlo", $base-font-family;
+    font-size: 0.9 * $base-font-size;
     border: 1px solid $brand-color;
-    padding: 1.5em;
+    padding: 1.6em;
+        padding-top: 0.6em;
+        padding-right: 1.6em;
+        padding-bottom: 0.6em;
+        padding-left: 2.3em;
     list-style: decimal;
     display: inline-block;
 }
@@ -179,6 +187,7 @@ blockquote {
 }
 
 footer {
+    font-family: 'Menlo', 'Monaco', monospace;
     position: relative;
     top: 2em;
 }
@@ -187,7 +196,3 @@ footer {
 .links a {
     margin-right: 1em;
 }
-
-
-
-

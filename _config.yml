@@ -43,5 +43,4 @@ sass:
 exclude:
 - README.md
 
-
-plugins: [jekyll-seo-tag]
+plugins: [jekyll-seo-tag, jekyll-feed]

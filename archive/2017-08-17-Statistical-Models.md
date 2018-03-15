@@ -9,7 +9,7 @@ date:   2017-09-01 18:50
 
 正如 George Box 所言，所有模型都是错的，但有些模型有用。
 
-> All models are wrong, but some models are useful.  
+> All models are wrong, but some models are useful.
 
 ## 参数模型与非参数模型
 什么是参数？假如有一个函数 f(x) = ax + b，a、b 不是自变量，我们需要给定 a、b 的值才能计算函数 f(x)，这里的 a、b 就是参数。在统计中，f(x) = ax + b 是我们选择的模型，a、b 参数通常是未知的，需要用样本分布的参数（estimator）估计（estimate）人口分布的参数（estimand）。
@@ -89,5 +89,5 @@ $$P(K=k) = \frac{\lambda^{k}e^{-\lambda}}{k!}$$
 听起来很不科学，但已经有无数的论文证明了 Bootstrap 是对的。一个解释是通过大数定理，当你对样本进行大量的随机取样，「假样本」的值会向真实值收敛，「假样本」是可以当做真样本使用的。
 
 ## 深入阅读
-[Statistical Models](https://book.douban.com/subject/4218659/)  
+[Statistical Models](https://book.douban.com/subject/4218659/)
 [Statistical Models](https://book.douban.com/subject/4057698/)

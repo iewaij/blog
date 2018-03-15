@@ -9,7 +9,7 @@ url: http://lijiawei.cc
 
 
 highlighter: rouge
-markdown: maruku
+markdown: Kramdown
 ### exclude the instructions / write-up in the README.md
 
 permalink: posts/:title/

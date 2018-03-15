@@ -5,7 +5,7 @@ date:   2016-12-17 15:31
 categories: 方法论
 ---
 
-* Do not remove this line (it will not be displayed) 
+* Do not remove this line (it will not be displayed)
 {:toc}
 
 这三天研究了认知心理学，并打算将学得用于期末复习，因此有此指南。作为一个读者，目前我看到的学霸复习指南为我提供了不少建议，让我有许多收获，然而这些建议缺少理论支撑，且一般是按照不同学科分类给建议，缺少统一的体系。本指南以开放、开源、共享的黑客精神（请大家感受一下我对卖笔记、打广告这种事情的鄙夷），与各位读者分享、切磋心智技巧，鉴于我个人对心理学的认知还停留在门外汉层面，有许多不完善的地方请各位斧正。
@@ -45,8 +45,8 @@ Y Combinator 的创始人 Paul Graham 写了一本书 [《黑客与画家》](ht
 另一种明确执行意图的方法是 turn-product-into-process。参照 [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn/lecture/wTEpf/surfs-up-process-versus-product) 的拖延症章节，我们对自己日常任务往往是结果导向的，例如写完 Essay、复习功课，但这些结果往往就导致了我们的拖延，一是因为我们根本无法预测产出所需要的时间，最后往往是临阵磨枪，二是因为结果导向往往让我们很痛苦。因此，我们需要把结果导向的任务转换成过程导向的，例如把「完成效率指南任务」转换成「用2个番茄时间创作效率指南」，把「复习功课」转换成「用4个番茄时间整理 FA 脉络」，这样可以大大减少拖延的情况，也可以方便安排一天的时间。
 
 ## 必要难度
-> 人们常通常认为，记得越快，就是学习效果越好。简而言之，存储越容易，提取就会越快。但是近些年，最新实验发现了与常识相反的结论：存储与提取负相关。——阳志平 
- 
+> 人们常通常认为，记得越快，就是学习效果越好。简而言之，存储越容易，提取就会越快。但是近些年，最新实验发现了与常识相反的结论：存储与提取负相关。——阳志平
+
 心理学理论认为适当地增加自己记忆的难度可以方便日后提取，也就是俗话说的好记性不如烂笔头，这背后包含的种种成因暂不讨论，我猜测是因为增加难度可以让自我更专注、更容易进入心流状态。阳志平在其博客中总结了以下几点可行的必要难度：
 
 * 时间难度
@@ -72,45 +72,45 @@ Y Combinator 的创始人 Paul Graham 写了一本书 [《黑客与画家》](ht
 * 分解概念
 
 	在形成总体概览后，我们就可以着手那些细碎的知识点或者章节，要时刻注意把眼前的知识点打散。比如说在《设计心理学》第一章里，可分解出以下的概念：
-	
+
 	好设计的特征
-	
+
 		* 可视性
 		* 易读性
 
-		
+
 	设计的分类
-	
+
 		* 工业设计
 		* 交互设计
 		* 体验设计
 		* 以人为本的设计
-		
+
 	交互设计的原则
-	
+
 		* 示能
 		* 意符
 		* 映射
 		* 反馈
 		* 概念模型
 
-		
+
 * 联系概念
 
 	把打散的概念相互联系，这是一种自下而上的组块化。《设计心理学》中，作者举例告诉我们什么是好的设计（包含可视性和易读性的设计），比较了各个类别的设计的区别，用对话的形式列出了示能和意符的联系，这些是书中已经有的联系。
-	
+
 	我们头脑中已有知识也可以和这些概念发生联系，例如示能的概念我会联想到原研哉在《设计中的设计》里深泽直人设计的伞架，在地上挖了个孔眼，直截了当地说明了这个孔眼可用来插伞，这是示能在室内设计中的体现；同样的，为什么《写给大家看的设计书》里强调文本对齐的重要性？因为对齐也是一种示能。
-	
+
 * 概念模型化
 
 	![](http://ww1.sinaimg.cn/large/006tNbRwgw1fattgw2ktzj30go0d075o.jpg)
 
 	把脑中的概念联系在一起后，继续抽象成模型，我在高中的时候无意中有想到几个抽象模型，能量守恒、动量守恒、牛顿第一定律（物体在没有外力的情况下保持匀速运动）、酸碱中和反应可以总结为物质世界的均衡模型（物质世界倾向于朝无运动的方向发展）。
-	
+
 * 模型连通
 
 	模型和模型之间当然可以连通，我刚刚提到的物质世界均衡模型其实很类似经济学中的均衡（事实上均衡正是阿尔弗雷德·马歇尔从物理学引入的），所以我头脑中的经济学供需模型其实和物质世界的均衡模型打通了，当然，这时候还能引入博弈论的纳什均衡，这就又抽象为人类活动及物质的均衡模型。这种跨学科的思维模型非常重要，可以参考芒格写的 [ 《穷查理宝典》](https://book.douban.com/subject/5346110/)。
-	
+
 * 刻意练习
 
 	人的时间那么宝贵，练习时间必然要花在刀刃上。高三的时候的复习，就是来来回回地翻教材，翻的都是自己知道的东西，其实这是最最低效的方法（我到现在也无法理解为什么学校要浪费我这么多时间）。刻意练习就是只练习困难的部分，能有效地防止我们有完成幻觉（illusion of competence），我们看完两页书以后，常会不由自主地赞美自己用功复习，然而实际上我们还是没有理解这些概念，只有用课后练习、费曼学习法、写作等方法测试自己哪里没有学到位才能帮助我们检验、内化知识。
@@ -129,23 +129,23 @@ Y Combinator 的创始人 Paul Graham 写了一本书 [《黑客与画家》](ht
 * 用 WOOP 方法达到自我约束
 
 	Wish（期望）：了解财务会计的基本概念并能熟练运用。
-	
+
 	Outcome（最理想的结果）：能独立完成 Past Exam 中的财务报表，能正确回答课本的问题。
-	
+
 	Obstacle（最可能阻碍计划完成的因素有哪些）：对财务没有任何兴趣
-	
+
 	Plan（执行意图）：如果我抱怨财务会计无聊，就去研究一家上市公司的财务报表。每天至少花6个番茄时间用于梳理财务会计的概念，4个番茄时间用于刻意练习财务会计。
 
 * 组块化
 
 	看了一下 Module Outline，可以发现 FA 的概念极为零碎，但又基本在两个报表之下：Balance Sheet（第三周到第六周），Cash Flow Statements（第七周到第九周）。头尾三周介绍的主要是琐碎的概念。
-	
+
 * 设定必要难度、刻意练习
 
 	分时复习：每天只复习6个番茄时间，而不是一天看完。
-	
+
 	跨学科复习：6个番茄时间在上下午完成，空闲时间用于复习其他学科。
-	
+
 	刻意练习：看完教科书的章节后6小时做练习、每天晚上抽时间写会计笔记。
 
 ## 参考资料
@@ -161,21 +161,8 @@ Y Combinator 的创始人 Paul Graham 写了一本书 [《黑客与画家》](ht
 
 [如何成为内在动机驱使的人？ - 阳志平的网志](http://www.yangzhiping.com/psy/YangQ&A-SelfDetermination.html)
 
-[Coursera - Learning How to Learn Week 2](https://www.coursera.org/learn/learning-how-to-learn/home/week/2) 
+[Coursera - Learning How to Learn Week 2](https://www.coursera.org/learn/learning-how-to-learn/home/week/2)
 
 [重启学习系统，做个知识炼金术士](https://zhuanlan.zhihu.com/p/22574669?refer=hackyourself)
 
 [知识炼金术士行动指南 1.0](https://zhuanlan.zhihu.com/p/22647481?refer=hackyourself)
-
-## 支持我
-在之后的几天，我会以我人生最大的难关——复习 Financial Accounting——为范例，给出我复习 FA 的具体的笔记（我认为我到死都不会忘记被 FA 支配的恐惧）。如果反馈良好，我会着手 Work and Society 等其他学科的笔记。
-
-如果你非常愿意**无回报**地支持我，微信扫码捐助，金额随意。
-![](http://ww3.sinaimg.cn/large/006tNbRwgw1fattjmu5lvj30v20kv76l.jpg)
-
-## 邮件订阅
-本文系 HackUndergraduate 系列的文章，如果你希望第一时间使用邮箱获得 HackUndergraduate 系列新文章，在下方输入你的邮箱地址即可。
-
- <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/HackUndergraduate" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/HackUndergraduate', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
-         
-         

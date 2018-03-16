@@ -7,6 +7,18 @@ name: 游戏暂停
 description: 李家伟的博客。
 url: http://lijiawei.cc
 
+twitter:
+  username: tiewuz
+
+social:
+  name: Jiawei Li
+  links:
+    - https://twitter.com/tiewuz
+    - https://github.com/iewaij
+
+logo: /favicon.ico
+
+lang: zh-CN
 
 highlighter: rouge
 markdown: Kramdown

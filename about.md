@@ -6,7 +6,7 @@ published: true
 ---
 <h1 class="headline">{{site.title}}</h1>
 
-我叫李家伟，96 年生人，目前在读经济学本科，也写很多代码，主要是 Python 和 Julia，也捣鼓机器学习，并且觉得数学很美妙。
+我叫李家伟，96 年生人，目前在读经济学本科，也写很多代码和捣鼓机器学习，主要是 Python 和 Julia，并且觉得数学很美妙。
 
 
 <footer>

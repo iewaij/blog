@@ -116,22 +116,22 @@ blockquote {
 
 
 .home {
-    background-image: url(../images/left-arrow.svg);
+    background-image: url(../playstation.svg);
     background-repeat: no-repeat;
-    height: 60px;
-    width: 60px;
+    height: 90px;
+    width: 90px;
     opacity: 0.9;
     position: fixed;
-    top: 50px;
-    left: 50px;
+    top: 60px;
+    left: 9%;
     &:hover{
     opacity: 1;
     }
     @include media-query($on-laptop) {
         top: 80%;
         left: 80%;
-        height: 60px;
-        width: 60px;
+        height: 90px;
+        width: 90px;
         opacity: 0.6;
     }
 
@@ -159,17 +159,22 @@ blockquote {
 // Using numbers instead of bullets for listing
 #markdown-toc ul {
     list-style: decimal;
+    padding: 1.2em;
+        padding-top: 0.1em;
+        padding-right: 1.0em;
+        padding-bottom: 0.2em;
+        padding-left: 1.5em;
 }
 
 #markdown-toc {
     font-family: "Menlo", $base-font-family;
     font-size: 0.9 * $base-font-size;
     border: 1px solid $brand-color;
-    padding: 1.6em;
+    padding: 1.2em;
         padding-top: 0.6em;
-        padding-right: 1.6em;
+        padding-right: 1.2em;
         padding-bottom: 0.6em;
-        padding-left: 2.3em;
+        padding-left: 3.2em;
     list-style: decimal;
     display: inline-block;
 }
@@ -189,10 +194,11 @@ blockquote {
 footer {
     font-family: 'Menlo', 'Monaco', monospace;
     position: relative;
-    top: 2em;
+    top: 1.2em;
 }
 
 /* Footer navigation links */
 .links a {
+    color: $text-color;
     margin-right: 1em;
 }

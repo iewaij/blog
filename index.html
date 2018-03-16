@@ -3,14 +3,14 @@ layout: default
 ---
 <h1 class="headline">{{site.title}}</h1>
 
-<h2>论文</h2>
+<h3>论文</h3>
 {% for essay in site.essays reversed%}
-<h3><a href="{{essay.url | prepend: site.baseurl}}">{{essay.title}}</a></h3>
+<h4><a href="{{essay.url | prepend: site.baseurl}}">{{essay.title}}</a></h4>
 {% endfor %}
 <br>
-<h2>杂文</h2>
+<h3>杂文</h3>
 {% for post in site.posts %}
-<h3><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
+<h4><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h4>
 {% endfor %}
 
 <footer>

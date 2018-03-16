@@ -26,10 +26,18 @@ body {
 
     }
 
-    h1,h2,h3,h4,h5,h6 {
+    h1,h2 {
          // font-family: "Microsoft YaHei", "Menlo", "Pingfang SC", "微软雅黑";
          font-family: "Menlo", $base-font-family;
          font-weight: bold;
+         line-height: 1.8;
+         margin: 0;
+    }
+
+    h3,h4,h5,h6 {
+         // font-family: "Microsoft YaHei", "Menlo", "Pingfang SC", "微软雅黑";
+         font-family: "Menlo", $base-font-family;
+         font-weight: 400;
          line-height: 1.8;
          margin: 0;
     }

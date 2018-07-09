@@ -18,12 +18,12 @@ Given that the function $m$ is non-linear, there's no analytical solution for th
 2. weight parameter
 3. output and tools
 
-I build the documentation based on the Github `README.md` and added more details on non-linear regression, which could help beginners to understand the code and workflow behind. The documentation is held here.
+I build the documentation based on the Github `README.md` and added more details on non-linear regression, which could help beginners to understand the code and workflow behind. The documentation is held [here](https://julianlsolvers.github.io/LsqFit.jl/latest/).
 
-There was a issue regarding weight parameter, which was caused by sending wrong residual function. The fix could be a simple fix or a better fix but involves more changes. I took a look at what other packages do, `nls` in `R` doesn't support weights and `Scipy.optimize` in `Python` took the error standard deviation or eatimated covariance as the parameter, which may not make sense at the first look but has computational advantage. The discussion could be seen here.
+There was a issue regarding weight parameter, which was caused by sending wrong residual function. The fix could be a simple fix or a better fix but involves more changes. I took a look at what other packages do, `nls` in `R` doesn't support weights and `Scipy.optimize` in `Python` took the error standard deviation or eatimated covariance as the parameter, which may not make sense at the first look but has computational advantage. The discussion could be seen [here](https://github.com/JuliaNLSolvers/LsqFit.jl/issues/69).
 
-The last thing is fitting result output and tools, including functions computing R-squared and adjusted R-squared to help users see results more straightforward.
+The last thing is [fitting result output and tools](https://github.com/iewaij/LsqFit.jl/tree/curve-fit-tools), including functions computing R-squared and adjusted R-squared to help users see results more straightforward.
 
-Other than what I mentioned, I have also done an early version of  `NLSolve.jl` documentation, considering the existing documentation of `NLSolve.jl` covers most topics needed and prepared `LsqFit.jl` for Julia v0.7 changes. There're lots of changes in v0.7 and the algorithm behaves very strange in v0.7, showing different results form v0.6, I'll come back to this issue when I finished other functionalities.
+Other than what I mentioned, some work unfinished includes an early but usable version of  `NLSolve.jl` [documentation](https://github.com/iewaij/NLsolve.jl/tree/init-docs), considering the existing documentation of `NLSolve.jl` covers most topics needed, and preparing `LsqFit.jl` for Julia v0.7 changes. There're lots of changes in v0.7 and the algorithm behaves very strange in v0.7, showing different results form v0.6, I'll come back to this issue when I finished other functionalities.
 
 For the next month, my focus will still be on `LsqFit.jl`, including more algorithms for least squares and bootstrap method for assessing goodness of fit.
